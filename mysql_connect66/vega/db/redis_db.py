@@ -2,7 +2,7 @@ import redis
 
 try:
     pool = redis.ConnectionPool(
-        host="10.10.18.87",
+        host="10.10.51.236",
         port=6379,
         password="123456",
         db=1,
